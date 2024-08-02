@@ -8,10 +8,12 @@ import javax.swing.JFrame;
 public class MyFrame extends JFrame implements ActionListener{
     
     JButton button;
+
     
     public MyFrame(){
         
         button = new JButton();
+        
         button.setBounds(200, 100, 100, 50);
         // Adding action listener to the button
         button.addActionListener(this);

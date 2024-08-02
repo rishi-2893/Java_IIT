@@ -24,7 +24,7 @@ public class Main{
             Class c = Class.forName(class_name);
 
             // throws exception
-            Object o = c.newInstance();
+            Object o = c.getDeclaredConstructor().newInstance();
 
             System.out.println("Class created: " + o.getClass() + "\n\n");
         }

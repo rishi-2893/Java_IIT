@@ -12,4 +12,8 @@ public class Date {
     public Date(int day){
         this(day, 9, 2003);
     }
+
+    public static void main(String[] args){
+        
+    }
 }

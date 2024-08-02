@@ -5,6 +5,7 @@ public class Main{
         String string_1 = "Rishi";
         String string_2 = "Patel";
         ArrayList<Integer> list = new ArrayList<>();
+        String val; // No need to initialize the value
 
         pass_by_reference(string_1, string_2, list);
         
